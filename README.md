@@ -76,7 +76,6 @@ API Postman Collection - set the base url http://localhost:8000/api/ in this cas
 
 > [Postman Collection](https://documenter.getpostman.com/view/6906174/UVkpNFam)
 
-More information regarding the project can be found here https://github.com/gothinkster/realworld
 
 ----------
 
@@ -107,7 +106,7 @@ More information regarding the project can be found here https://github.com/goth
 
 ----------
 
-# Testing API
+# Run API
 
 Run the laravel development server
 
@@ -131,7 +130,7 @@ Refer the [api specification](https://documenter.getpostman.com/view/6906174/UVk
  
 # Authentication
  
-This applications uses JSON Web Token (JWT) to handle authentication. The token is passed with each request using the `Authorization` header with `Token` scheme. The JWT authentication middleware handles the validation and authentication of the token. Please check the following sources to learn more about JWT.
+This applications uses JSON Web Token (JWT) to handle authentication. The token is passed with each request using the `Authorization` header with `Token` scheme. The JWT authentication middleware handles the validation and authentication of the token.
  
 Admin Login Credentials
 email : admin@admin.com
